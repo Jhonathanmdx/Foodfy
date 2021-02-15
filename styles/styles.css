@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --pink--: #FBDFDB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* >=< STYLES GLOBAL >=< */
+#navegation {
+    margin-left: 231px;
+    margin-top: 36.1px;
+}
+
+header .links,
+#img-logo {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.links {
+    margin: 0;
+}
+
+.links:hover {
+    transition: color 500ms;
+    color: var(--pink--);
+}
+
+a#links1.links {
+    margin-left: 122.4px;
+    margin-right: 30px;
+}
+
+div#footer {
+    width: 100%;
+    height: 62px;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+#footer footer {
+    width: 267px;
+    height: 16px;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    margin: 23px 566px 23px 566px;
+    position: absolute;
+}
+/* >=< FIM STYLES GLOBAL >=< */
+
+/* >=< INICIO CONTAINER PINK >=< */
+#container-pink {
+    width: 940px;
+    height: 366px;
+    border-radius: 30px;
+    background-color: var(--pink--);
+    margin: 30px 230px 50px 230px;
+}
+
+#chef {
+    position: absolute;
+    width: 216px;
+    height: 300px;
+    margin: 66px 100px 0px 624px;
+}
+
+div#container-pink-tittle {
+    width: 305px;
+    height: 38px;
+    margin: 117px 575px 211px 60px;
+    position: absolute;
+
+}
+div#container-pink-tittle p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+div#container-pink-content {
+    width: 316px;
+    height: 84px;
+    margin: 165px 564px 117px 60px;
+    position: absolute;
+}
+
+div#container-pink-content p {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+/* >=< FIM CONTAINER PINK >=< */
+
+/* >=< INICIO MOST ACCESSED >=< */
+div#most-accessed {
+    width: 174px;
+    height: 28px;
+    margin: 50px 996px 20px 230px;
+}
+
+div#most-accessed p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px; 
+}
+/* >=< FIM MOST ACCESSED >=< */
+
+/* >=< INICIO CARDS >=< */
+div.cards {
+    max-width: 300px;
+    margin: auto 230px auto 230px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.name-food {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.cooker {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+/* >=< FIM CARDS >=< */
+
+div#tittle-sobre-foodfy {
+    width: 168.7px;
+    height: 28px;
+    margin: 50px 1006px 20px 230px;
+}
+
+div#tittle-sobre-foodfy p {
+    font-family: 'Roboto-Bold',sans-serif;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+#content-sobre-foodfy {
+    width: 940px;
+    height: 280px;
+    margin: 20px 230px 30px 230px;
+}
+
+#content-sobre-foodfy p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444 ;
+}
+
+.tittle-content {
+    width: 220px;
+    height: 24px;
+    margin: 30px auto 20px 230px;
+}
+
+.tittle-content p {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
