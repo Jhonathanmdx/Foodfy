@@ -55,6 +55,7 @@ div#footer {
     margin: 23px 566px 23px 566px;
     position: absolute;
 }
+
 /* >=< FIM STYLES GLOBAL >=< */
 
 /* >=< INICIO CONTAINER PINK >=< */
@@ -80,6 +81,7 @@ div#container-pink-tittle {
     position: absolute;
 
 }
+
 div#container-pink-tittle p {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
@@ -99,6 +101,7 @@ div#container-pink-content p {
     line-height: 28px;
     opacity: 0.7;
 }
+
 /* >=< FIM CONTAINER PINK >=< */
 
 /* >=< INICIO MOST ACCESSED >=< */
@@ -111,11 +114,12 @@ div#most-accessed {
 div#most-accessed p {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    line-height: 28px; 
+    line-height: 28px;
 }
+
 /* >=< FIM MOST ACCESSED >=< */
 
-/* >=< INICIO CARDS >=< */
+/* >=< INICIO RECEITAS CARDS >=< */
 div.cards {
     max-width: 300px;
     margin: auto 230px auto 230px;
@@ -143,8 +147,10 @@ div.cards {
     line-height: 16px;
     color: #777777;
 }
-/* >=< FIM CARDS >=< */
 
+/* >=< FIM RECEITAS CARDS >=< */
+
+/* >=< INICIO CONTEUDO "SOBRE" >=< */
 div#tittle-sobre-foodfy {
     width: 168.7px;
     height: 28px;
@@ -152,7 +158,7 @@ div#tittle-sobre-foodfy {
 }
 
 div#tittle-sobre-foodfy p {
-    font-family: 'Roboto-Bold',sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     font-size: 23px;
     line-height: 28px;
 }
@@ -167,7 +173,7 @@ div#tittle-sobre-foodfy p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 28px;
-    color: #444444 ;
+    color: #444444;
 }
 
 .tittle-content {
@@ -181,3 +187,55 @@ div#tittle-sobre-foodfy p {
     font-size: 20px;
     line-height: 24px;
 }
+
+/* >=< FIM CONTEUDO "SOBRE" >=< */
+
+/* >=< INICIO MODAL OVERLAY >=< */
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    margin: 10% auto;
+    border-radius: 16px;
+    position: relative;
+}
+
+.modal .close-modal {
+    position: absolute;
+    margin: 364px 291px 30px 281px;
+    cursor: pointer;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14.4px;
+    line-height: 19px;
+    color: #999999;
+}
+
+/* >=<MODAL.ACTIVE>=< */
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content div {
+    position: absolute;
+    margin: 30px 30px 183px 30px;
+}
+
+.modal-content img {
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+/* >=< FIM MODAL OVERLAY >=< */
