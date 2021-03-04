@@ -221,7 +221,6 @@ div#tittle-sobre-foodfy p {
     color: #999999;
 }
 
-/* >=<MODAL.ACTIVE>=< */
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
@@ -236,6 +235,23 @@ div#tittle-sobre-foodfy p {
     width: 600px;
     height: 200px;
     border-radius: 15px;
+}
+
+.modal-content h3 {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal-content p {
+    font-family: 'Roboto-Regular', sans-serif;
+    color: #777777;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 /* >=< FIM MODAL OVERLAY >=< */

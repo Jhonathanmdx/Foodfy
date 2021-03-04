@@ -3,7 +3,16 @@ const cards = document.querySelectorAll('.card')
 
 for (let card of cards) {
     card.addEventListener("click", function(){
-        modalOverlay.classList.add('active')
+
+        const imageId = card.querySelector("img").src;
+        const nameFood = card.getAttribute("name-food");
+        modalOverlay.classList.add('active');
+        modalOverlay.querySelector("img").src = imageId;
+        modalOverlay.querySelector("h3").innerHTML = card.querySelector("h3").textContent;
+        modalOverlay.querySelector("p").innerHTML = card.querySelector("p").textContent;
+        
+
+
     })
 }
 
